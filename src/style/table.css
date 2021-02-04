@@ -1,0 +1,34 @@
+/*.vertical .categories {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.categories {
+    display: flex;
+    justify-content: center;
+}
+
+.categories h3, button {
+    width: 200px;
+    font-size: 18px;
+}
+
+.header {
+    margin-left: 200px;
+}
+
+
+
+.table-box {
+    display: inline-block;
+    width: 200px;
+}
+
+.table-separator {
+    background: black;
+}
+*/
