@@ -26,13 +26,8 @@ export default class TableBox extends Component {
     }
     render() {
         const items = this.state.items.map((item, idx) => {
-            if (idx == this.state.itemIdxEdited) {
-                return (<ListGroup.Item>
-                    {/* <FormControl type="text" onChange(/> */}
-                </ListGroup.Item>
-            );
-            }
-            return <ListGroup.Item onDoubleClick={() => this.editItem(idx)}>{item}</ListGroup.Item>;
+
+            return <ListGroup.Item onDoubleClick={() => this.editItem(idx)}><FormControl value={item}/></ListGroup.Item>;
         });
         return (
             <td>
